@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #ffffff;
+  color: #555555;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 2rem;
+}
+
+.app-header {
+  margin-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+  color: #444444;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #777777;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 1rem 0;
+}
+
+.control-group {
+  min-width: 220px;
+}
+
+.control-label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  color: #555555;
+}
+
+select {
+  width: 100%;
+  padding: 0.4rem 0.5rem;
+  border-radius: 0;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  color: #555555;
+  font-size: 0.95rem;
+}
+
+.pricing-context h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: #444444;
+}
+
+.pricing-context ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.pricing-context li + li {
+  margin-top: 0.2rem;
+}
+
+.label {
+  font-weight: 600;
+  color: #666666;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.course-card {
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  padding: 0.9rem 1rem;
+}
+
+.course-title {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+  color: #444444;
+}
+
+.course-meta {
+  font-size: 0.85rem;
+  color: #777777;
+}
+
+.course-price {
+  margin-top: 0.4rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #555555;
+}
+
+.course-display,
+.course-source {
+  font-size: 0.8rem;
+  color: #888888;
+}
+
+.error-text {
+  color: #cc0000;
+  font-size: 0.9rem;
+}
+
