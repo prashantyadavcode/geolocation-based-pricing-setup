@@ -14,4 +14,4 @@ COPY --from=build /app/target/geo-pricing-demo-backend-0.0.1-SNAPSHOT.jar /app/a
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["java", "-jar", "/app/app.jar"]
+CMD ["sh", "-c", "java -Dserver.port=${PORT:-8080} -jar /app/app.jar"]
